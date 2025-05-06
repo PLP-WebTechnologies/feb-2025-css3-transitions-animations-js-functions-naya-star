@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechConf 2025 Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>TechConf 2025</h1>
+    <button id="toggleTheme">Toggle Theme</button>
+  </header>
+
+  <main>
+    <section class="sessions">
+      <h2>Featured Sessions</h2>
+      <div class="card" data-id="ai-future">
+        <h3>The Future of AI</h3>
+        <p>With Dr. Aisha Njoroge – 10:00 AM</p>
+        <button class="bookmark-btn">Bookmark</button>
+      </div>
+
+      <div class="card" data-id="cloud-secure">
+        <h3>Cloud Security Trends</h3>
+        <p>With James Kimani – 11:30 AM</p>
+        <button class="bookmark-btn">Bookmark</button>
+      </div>
+
+      <div class="card" data-id="devops-next">
+        <h3>DevOps: What's Next</h3>
+        <p>With Brenda Otieno – 2:00 PM</p>
+        <button class="bookmark-btn">Bookmark</button>
+      </div>
+    </section>
+    <button id="resetBookmarks">Reset Bookmarks</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
